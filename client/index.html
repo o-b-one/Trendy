@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>SugoiJS Init Application</title>
+    <link rel="shortcut icon" type="image/png" href="assets/icon_inverse.png"/>
+</head>
+<body style="display: flex;justify-content: flex-start;flex-direction:column;align-items:center;font-family: monospace">
+<section style="text-align: center;">
+    <h1>Powered by</h1>
+    <img src="assets/logo.png"/>
+    <h3 >SugoiJS</h3>
+</section>
+<textarea 
+    id="text"
+    cols="100" 
+    rows="20">
+</textarea>
+<button id="estimation">Estimate</button>
+</body>
+<span><b>Emotion estimation:</b> <span id='score'></span> result: <span id='result'></span></span>
+
+<script>
+    const ESTIMATOR_URI = '/processor/emotion';
+
+    window['estimation'].addEventListener('click',async function(){
+        const res = await fetch(ESTIMATOR_URI, {
+            method:"POST",
+            headers: new Headers({
+                "Content-Type":"Application/json"
+            }),
+            body: JSON.stringify({
+                text: window['text'].value
+            })
+        }).then(res=> res.json());
+        window['score'].innerHTML = res.estimation;
+        let result;
+        if(res.estimation === 0){
+            result = 'Nutral';
+        }
+        else if (res.estimation > 0){
+            result = 'Positive';
+        }else{
+            result = 'Negative';
+        }
+        window['result'].innerHTML = result
+    })
+</script>
+</html>

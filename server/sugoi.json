@@ -1,0 +1,15 @@
+{
+  "version": "4.0.0",
+  "workspace": "Sugoi Project",
+  "projects":{
+    "main": {
+      "entry": "src/app/server.ts",
+      "dist": "dist",
+      "commonDir": "../common",
+      "configurationDir": "configuration",
+      "excludes": [],
+      "includes": [],
+      "testConfigFile": "jest.configuration.js"
+    }
+  }
+}

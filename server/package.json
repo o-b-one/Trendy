@@ -1,0 +1,44 @@
+{
+  "name": "trendy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "../dist/server.js",
+  "private": true,
+  "scripts": {
+    "sgi": "sgi",
+    "dev": "sgi build --watch",
+    "start": "sgi build && node dist/server.js &",
+    "start:prod": "sgi build --prod && NODE_ENV=production node dist/server.js &",
+    "start:dev": "npm run dev & &&  npm run start:watch",
+    "start:watch": "nodemon dist/server.js --inspect",
+    "build": "sgi build",
+    "test": "npm run build && npm run test:server",
+    "test:server": "sgi test",
+    "postinstall": "cd ../common && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sugoi/core": "^4.0.2",
+    "@sugoi/mongodb": "^4.0.0",
+    "@sugoi/server": "^4.0.1",
+    "@sugoi/socket": "^4.0.0",
+    "compression": "^1.7.3",
+    "natural": "^0.6.3",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@sugoi/cli": "^4.0.1",
+    "@types/body-parser": "^1.17.0",
+    "@types/helmet": "0.0.43",
+    "@types/jest": "24.0.15",
+    "@types/compression": "0.0.36",
+    "@types/node": "^10.12.12",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^1.18.7",
+    "ts-helpers": "^1.1.2",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.5.2"
+  }
+}

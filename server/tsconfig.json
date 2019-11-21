@@ -1,0 +1,30 @@
+{
+  "exclude": [
+    "**/__tests__/**/*"
+  ],
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "allowJs": true,
+    "target": "es2015",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "types": [
+      "body-parser",
+      "express",
+      "node"
+    ],
+    "paths": {
+
+    }
+  }
+}
