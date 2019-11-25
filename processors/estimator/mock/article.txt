@@ -1,0 +1,21 @@
+I don't know what to think about Elon Musk anymore. I mean the SpaceX stuff is awesome, and the Tesla car has been pretty cool. But now we have the Tesla pickup truck, unveiled on Thursday. (Simone Giertz did it first!) The Tesla Cybertruck looks odd—one person likened it to a futuristic doorstop—but that's fine with me. My problem is with the unveiling itself.
+
+In case you missed it, Musk wanted to demonstrate the truck’s ruggedness. They start off by hitting a normal truck door with a sledgehammer. Yes, it makes a dent. What about the Tesla truck? Bam! Not a scratch. It has a thicker steel exterior that makes it impervious to people with sledgehammers.
+
+Oh, and the windows? They’re made of "Tesla Armor Glass." To compare, Musk’s assistants drop a metal ball on normal car glass, which cracks. Then they drop it on Tesla’s special glass, and the ball bounces off. They drop a bigger ball on it from higher up. Nothing. So the guy tosses the ball at the driver’s window of the Cybertruck—and smashes it.
+
+“Well, maybe that was a little too hard,” Musk says. So the guy picks up the ball and lobs it as softly as he can at the rear passenger window. Now there are two smashed windows. Awkward.
+
+I don’t know, if it were me, I’d have tested this demo before doing it live onstage. But, to Musk’s credit, they just carried on with the show. The whole rest of the presentation was carried out in front of a prototype with broken windows. Bad optics, but you have to admire his aplomb.
+
+What went wrong? Why did Tesla’s fancy glass survive a dropped ball but not a thrown ball? To find out, we need some physics.
+
+How high was the test ball dropped?
+If you drop a metal ball, it speeds up as it falls. So to know how hard it hit the glass in the demo, we need to know the height from which it was released. For the first drop, the stage assistant stands over the glass, raises his arm, and releases the ball—that looks to be a distance of roughly 1 meter. The higher drops are a little trickier. It would have been nice if they just told us, but that’s OK, we can estimate it from the amount of time it takes to hit.
+
+If you drop an object, it starts with an initial velocity of zero, and the only force acting on it is gravity. The gravitational force, we know, depends on the local gravitational field (9.8 newtons per kilogram) and the mass of the object.
+
+We also know that the net force must equal the product of mass and acceleration. Notice: Mass is on both sides of the equation, so we cancel out the mass, and we get that the acceleration of a falling object is 9.8 meters per second squared in the downward direction.
+
+Using the definition of acceleration, and rearranging, you can get the following semi-famous equation showing height (y) as a function of time (t):
+
