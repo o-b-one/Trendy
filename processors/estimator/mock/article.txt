@@ -1,21 +1,56 @@
-I don't know what to think about Elon Musk anymore. I mean the SpaceX stuff is awesome, and the Tesla car has been pretty cool. But now we have the Tesla pickup truck, unveiled on Thursday. (Simone Giertz did it first!) The Tesla Cybertruck looks odd—one person likened it to a futuristic doorstop—but that's fine with me. My problem is with the unveiling itself.
+Teva Pharmaceutical Industries Ltd. and other generic drugmakers have held talks with the U.S. Justice Department in the past six months about resolving a long-running criminal antitrust probe of alleged price-fixing by the companies, according to people familiar with the matter.
 
-In case you missed it, Musk wanted to demonstrate the truck’s ruggedness. They start off by hitting a normal truck door with a sledgehammer. Yes, it makes a dent. What about the Tesla truck? Bam! Not a scratch. It has a thicker steel exterior that makes it impervious to people with sledgehammers.
+Among the possible outcomes that have been discussed are deferred prosecution agreements in which the companies would admit to certain allegations but would be shielded from indictment in exchange for cooperating with the investigation and paying fines.
 
-Oh, and the windows? They’re made of "Tesla Armor Glass." To compare, Musk’s assistants drop a metal ball on normal car glass, which cracks. Then they drop it on Tesla’s special glass, and the ball bounces off. They drop a bigger ball on it from higher up. Nothing. So the guy tosses the ball at the driver’s window of the Cybertruck—and smashes it.
+Talks are being held with drugmakers individually, and any one or all of the negotiations could fail to result in an agreement, according to the people, who asked to remain anonymous because the discussions are private. The timetable for reaching any accord isn’t clear. The government could still decide to indict any of the companies, a person familiar with the talks said.
 
-“Well, maybe that was a little too hard,” Musk says. So the guy picks up the ball and lobs it as softly as he can at the rear passenger window. Now there are two smashed windows. Awkward.
+ISRAEL-FRANCE-HEALTH-PHARMA-INQUIRY-TEVA
+The Teva Pharmaceutical plant in Jerusalem.Photographer: Menahem Kahana/AFP via Getty Images
+In addition to Israel-based Teva, a unit of Indian generics giant Sun Pharmaceutical Industries Ltd. has also been in talks with federal prosecutors.
 
-I don’t know, if it were me, I’d have tested this demo before doing it live onstage. But, to Musk’s credit, they just carried on with the show. The whole rest of the presentation was carried out in front of a prototype with broken windows. Bad optics, but you have to admire his aplomb.
+“We continue to cooperate with the DOJ’s investigation,” said Teva spokeswoman Kelley Dougherty. “As with any government investigation or litigation, we are willing to entertain possible resolution but only if it makes sense for the company, our shareholders and the patients that we serve. We will continue to defend ourselves vigorously in these matters.”
 
-What went wrong? Why did Tesla’s fancy glass survive a dropped ball but not a thrown ball? To find out, we need some physics.
+The Justice Department declined to comment on the status of its probe. Sun spokeswoman Vinita Alexander declined to comment.
 
-How high was the test ball dropped?
-If you drop a metal ball, it speeds up as it falls. So to know how hard it hit the glass in the demo, we need to know the height from which it was released. For the first drop, the stage assistant stands over the glass, raises his arm, and releases the ball—that looks to be a distance of roughly 1 meter. The higher drops are a little trickier. It would have been nice if they just told us, but that’s OK, we can estimate it from the amount of time it takes to hit.
+Read more: A massive U.S. drug price-fixing probe has hit major roadblocks
 
-If you drop an object, it starts with an initial velocity of zero, and the only force acting on it is gravity. The gravitational force, we know, depends on the local gravitational field (9.8 newtons per kilogram) and the mass of the object.
+Teva’s U.S.-traded shares jumped as much as 6% in New York on Monday. The company’s bonds were among the top gainers in the U.S. high-yield market, according to Trace bond-trading data.
 
-We also know that the net force must equal the product of mass and acceleration. Notice: Mass is on both sides of the equation, so we cancel out the mass, and we get that the acceleration of a falling object is 9.8 meters per second squared in the downward direction.
 
-Using the definition of acceleration, and rearranging, you can get the following semi-famous equation showing height (y) as a function of time (t):
+Prosecutors have been investigating allegations that generic drugmakers conspired to prop up the prices of certain widely used medications for more than five years, and have hinted several times this year that charges could be imminent. Nine of every 10 prescription drugs dispensed in the U.S. are generics, and lawmakers say the alleged illegal coordination on pricing has cost federal health programs billions of dollars.
 
+At the same time, generics makers are grappling with extraordinarily forbidding economics. Profit margins in the business have always been thin. As more drugs come to market and drive prices even lower, new alliances among insurers and pharmacy-benefit managers have also eroded the companies’ pricing power.
+
+Inside Teva Pharmaceuticals Headquarters
+The Teva Pharmaceutical plant in Jerusalem.Photographer: Adam Reynolds/Bloomberg
+The case has also forced the government to wrestle with competing priorities: On the one hand, the Trump administration wants to make drugs as affordable as possible, and broaden access to a range of medicines. But a criminal conviction could lead to a drug company being barred from doing business with Medicare and Medicaid -- and drive up costs by narrowing the options of government drug purchasers.
+
+Those tectonics could make deferred prosecution pacts attractive to both sides. Under such an agreement, drugmakers could continue to do business with government, preserving billions in annual sales.
+
+For prosecutors, such an accord could avoid a conviction that would inadvertently limit competition and increase the prices of common medications. It would also help wrap up a case that has targeted the biggest names in the industry but has yet to produce charges against any major company, even as state officials have accused the drugmakers in civil cases of a sweeping conspiracy to raise prices.
+
+Numerous Obstacles
+Bloomberg has previously reported that the multiyear antitrust investigation, which has targeted more than a dozen companies, has faced numerous obstacles. Congress has recently pressured the department to disclose the status of the long-anticipated investigation.
+
+The Justice Department reached a deferred prosecution agreement with closely held generic drugmaker Heritage Pharmaceuticals Inc. in May, providing a potential roadmap for subsequent pacts. Previously, two executives from the drugmaker pleaded guilty to charges connected to the federal probe.
+
+Teva has met multiple times this summer and fall with prosecutors to discuss deferred prosecution agreements, according to people familiar with the matter. Chief Executive Officer Kare Schultz said on a Nov. 7 call with investors that the company had provided federal prosecutors with more than a million documents.
+
+Teva Pharmaceutical Industries Ltd. President & CEO Kare Schultz Interview
+Kare SchultzPhotographer: Christopher Goodney/Bloomberg
+“We have not found any evidence that we were in any way part of any structured collusion or price-fixing,” Schultz said on the call, “but we remain of course in dialogue with the Department of Justice.”
+
+Sun Pharmaceutical, India’s largest drugmaker, has been in discussions with federal prosecutors in recent months about the case against its subsidiary Taro Pharmaceutical Industries, according to people familiar with the talks. A Sun spokeswoman declined to comment, citing ongoing litigation.
+
+New Witnesses
+Deferred prosecution agreements have been used to resolve criminal allegations in high-profile probes of HSBC Holdings Plc and General Motors Co., though the Justice Department’s antitrust unit has used them only rarely. In July, the department’s antitrust division made changes to its criminal-enforcement policy that allow for deferred prosecution agreements to be considered.
+
+The Justice Department has struggled to secure cooperating witnesses in the generics probe, but former Teva employees and a former employee of Sandoz, the generic arm of Swiss drugmaker Novartis AG, have recently met with prosecutors to help them build their case, according to people familiar with the matter.
+
+Novartis spokesman Eric Althoff said that the company is cooperating with investigators.
+
+Makan Delrahim, head of the Justice Department’s antitrust unit, told the Senate in September that several additional cases are coming up in the investigation. His deputy, Richard Powers, who leads the antitrust criminal enforcement unit, said on Nov. 14 in San Francisco that the department would be making additional announcements about the probe.
+
+In addition to the Justice Department inquiry, Teva, Sun Pharma and other generic drugmakers are facing a similar but separate civil case brought by attorneys general for 48 states, the District of Columbia, and four U.S. territories.
+
+A settlement with federal prosecutors could help the states’ cases, as well as those of other civil litigants, said Robert Field, a professor of law, health management and policy at Drexel University. Were any drugmaker to concede facts as part of a settlement, it could expose them to additional civil liabilities.

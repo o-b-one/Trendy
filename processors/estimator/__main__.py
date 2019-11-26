@@ -1,8 +1,9 @@
 import sys
+from pathlib import Path
 from src.classes import estimator
 
 lang = 'en'
-file_path = './mock/article.txt'
+file_path = 'mock/article.txt'
 text = None
 topics = ''
 
@@ -12,7 +13,9 @@ if(len(sys.argv) > 2):
     lang = sys.argv[2]
 
 
-with open(file_path,'r') as reader:
+filename = Path(file_path)
+
+with open(filename.absolute(),'r') as reader:
     text = reader.read()
 
 estimator = estimator.Estimator(lang)

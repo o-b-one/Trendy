@@ -1,6 +1,10 @@
 import re
 import spacy
-from src.classes import entity
+import pandas as pd
+from src.classes import entity, sentiment_estimator
+
+
+
 TRASHOLD = .25
 
 
@@ -24,6 +28,7 @@ class Estimator:
         self.lang = self.languages_dictionary[lang]
         self.analyze_algo = analyze_algo
         self.nlp = spacy.load('en_core_web_sm')
+        self.sentiment_estimator = sentiment_estimator.SentimentEstimator()
     
     # def lemmatize_stemming(self,text):
         # token = WordNetLemmatizer().lemmatize(text, pos='v')
@@ -60,7 +65,9 @@ class Estimator:
                 topics_dictionary[entity_text].increment()
                 paragraph_topics[entity_text].increment()
         
-        return Estimator.normalize_results(paragraph_topics)
+        sentiment, accuracy = self.sentiment_estimator.estimate(paragraph)
+        return Estimator.sort_topics(Estimator.normalize_results(paragraph_topics)), sentiment, accuracy
+
 
        
 
@@ -76,17 +83,21 @@ class Estimator:
 
         paragraphs_results = []
         for paragraph in paragraphs:
-            paragraph_topics = self.analyze_paragraph(paragraph, topics_dictionary)
-            paragraphs_results.append(paragraph_topics)
+            paragraph_topics, sentiment, accuracy = self.analyze_paragraph(paragraph, topics_dictionary)
+            paragraphs_results.append((paragraph_topics,sentiment, accuracy))
 
-
-        
         topics_list = Estimator.normalize_results(topics_dictionary)
-        topics_list.sort(key = lambda topic: topic[5], reverse = True)
-        print(paragraphs_results)
+        Estimator.sort_topics(topics_list)
+        print(pd.DataFrame(paragraphs_results, columns=['Results', 'Sentiment', 'Accuracy']))
         return topics_list[:5]
+
+
+    @staticmethod
+    def sort_topics(topics_tuple):
+        topics_tuple.sort(key = lambda topic: topic[5], reverse = True)
+        return topics_tuple
 
     @staticmethod
     def normalize_results(topics_dictionary):
-        return [topics_dictionary[topic].to_tuple() for topic in topics_dictionary if topics_dictionary[topic].get_ratio() > TRASHOLD]    
+        return [topics_dictionary[topic].to_tuple() for topic in topics_dictionary if topics_dictionary[topic].get_ratio() >= TRASHOLD]    
    
