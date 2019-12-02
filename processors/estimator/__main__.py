@@ -1,6 +1,6 @@
 import sys
 from pathlib import Path
-from src.classes import estimator
+from src.processors import estimator
 
 lang = 'en'
 file_path = 'mock/article.txt'
