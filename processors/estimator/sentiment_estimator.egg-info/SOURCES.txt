@@ -1,0 +1,6 @@
+README
+setup.py
+sentiment_estimator.egg-info/PKG-INFO
+sentiment_estimator.egg-info/SOURCES.txt
+sentiment_estimator.egg-info/dependency_links.txt
+sentiment_estimator.egg-info/top_level.txt

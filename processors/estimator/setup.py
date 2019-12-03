@@ -14,7 +14,7 @@ setup(
     description = ("A way to estimate sentiment based on articles "),
     license = "BSD",
     keywords = "",
-    packages=["spacy"],
+    packages=[],
     long_description=read('README'),
     classifiers=[
         "Development Status :: 1 - Planning",
